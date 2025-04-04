@@ -5,5 +5,7 @@ Methodology:
 The analysis involves three steps:
 
 Hedonic Regression: A log-linear hedonic regression model estimates quality-adjusted prices for 2,586 primary LAND sales, controlling for parcel characteristics (e.g., location, proximity to roads/plazas) and using monthly time dummies to isolate price trends. The model has a high fit (R² = 0.789).
+
 Monthly Hedonic Index: Monthly time dummy coefficients are used to build a quality-adjusted price index, normalized to 100 in January 2020. The index ranges from 45.7 (Sep-24) to 1830.2 (Dec-21), showing volatility, with a peak in December 2021 (1,730% increase) and a low in September 2024 (54% decrease).
+
 Daily Disaggregation: The monthly index is disaggregated into a daily index using the Chow-Lin method, with a daily indicator based on imputed average sale prices (using Cubic Spline with Noise). The daily index ranges from 40.27 to 2136.28, aligning with monthly trends (MAPE = 1.23%).
